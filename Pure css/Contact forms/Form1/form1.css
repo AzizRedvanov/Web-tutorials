@@ -1,0 +1,107 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #272525;
+}
+.form {
+    width: 540px;
+}
+.form h3 {
+    width: 108%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+.form div {
+    position: relative;
+    margin: 30px 0;
+}
+.form div .input {
+    color: #fff;
+    border: 2px solid #fff;
+    background: #ca076c;
+    -webkit-box-shadow: inset 0 0 45px #000, inset 0 0 45px #e91e63;
+    -moz-box-shadow: inset 0 0 45px #000, inset 0 0 45px #e91e63;
+    -o-box-shadow: inset 0 0 45px #000, inset 0 0 45px #e91e63;
+    -ms-box-shadow: inset 0 0 45px #000, inset 0 0 45px #e91e63;
+    box-shadow: inset 0 0 45px #000, inset 0 0 45px #e91e63;
+}
+.form div .input::placeholder {color: #eacad7;}
+.form div .input, .form div #submit {
+    width: 100%;
+    padding: 20px;
+    font-weight: 800;
+}
+.form div .input:invalid, .form div #submit {
+    opacity: 0.8;
+}
+.form div .input:invalid:hover, .form div #submit:hover {
+    opacity: 1;
+}
+.form div #name {
+    border-radius: 40px 10px 40px 0;
+}
+.form div #phone {
+    border-radius: 0 40px 40px 0;
+}
+.form div #phone::-webkit-outer-spin-button,
+.form div #phone::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.form div #message {
+    font-size: 16px;
+    border-radius: 0 40px 10px 40px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 30px;
+    max-height: 130px;
+    height: 30px;
+    cursor: auto;
+}
+#message::-webkit-scrollbar-track-piece:start {
+    margin-top: 26px;
+}
+#message::-webkit-scrollbar {
+	width: 10px;
+}
+#message::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+    background: #f8e3e3;
+    -webkit-box-shadow: inset 0 0 5px #000e, inset 0 0 5px #e91e63;
+    -moz-box-shadow: inset 0 0 5px #000e, inset 0 0 5px #e91e63;
+    -o-box-shadow: inset 0 0 5px #000e, inset 0 0 5px #e91e63;
+    -ms-box-shadow: inset 0 0 5px #000e, inset 0 0 5px #e91e63;
+    box-shadow: inset 0 0 5px #000e, inset 0 0 5px #e91e63;
+}
+
+.form div #submit {
+    width: 54%;
+    margin-left: 27%;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 40px 10px 40px 10px;
+    background: #bd0e69;
+    -webkit-box-shadow: inset 0 0 30px #000, inset 0 0 30px #e91e63;
+    -moz-box-shadow: inset 0 0 30px #000, inset 0 0 30px #e91e63;
+    -o-box-shadow: inset 0 0 30px #000, inset 0 0 30px #e91e63;
+    -ms-box-shadow: inset 0 0 30px #000, inset 0 0 30px #e91e63;
+    box-shadow: inset 0 0 30px #000, inset 0 0 30px #e91e63;
+    text-shadow: 0 0 15px #fff;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}

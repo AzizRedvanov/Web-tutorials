@@ -1,0 +1,49 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2a2d32;
+    font-family: 'Century Gothic', sans-serif; 
+}
+button {
+    padding: 10px 30px;
+    border-color: #fff;
+    cursor: pointer;
+    background: #2a2d32;
+    -webkit-box-shadow: inset -8px -8px 10px #17191c, inset 8px 8px 10px #3d4149;
+    -moz-box-shadow: inset -8px -8px 10px #17191c, inset 8px 8px 10px #3d4149;
+    -o-box-shadow: inset -8px -8px 10px #17191c, inset 8px 8px 10px #3d4149;
+    -ms-box-shadow: inset -8px -8px 10px #17191c, inset 8px 8px 10px #3d4149;
+    box-shadow: inset -8px -8px 10px #17191c, inset 8px 8px 10px #3d4149;
+    border-radius: 40px;
+}
+button span{
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color:#800;
+    background: url(tenor.gif) center 30%;
+    background-size: 200% 300%;
+    text-shadow:0 5px 15px rgba(0,0,0,1);
+    color: #8000;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    text-transform: uppercase;
+}
+button:active {
+    text-shadow:0 -5px 15px rgba(0,0,0,1);
+    -webkit-box-shadow: inset 8px 8px 10px #17191c, inset -8px -8px 10px #3d4149;
+    -moz-box-shadow: inset 8px 8px 10px #17191c, inset -8px -8px 10px #3d4149;
+    -o-box-shadow: inset 8px 8px 10px #17191c, inset -8px -8px 10px #3d4149;
+    -ms-box-shadow: inset 8px 8px 10px #17191c, inset -8px -8px 10px #3d4149;
+    box-shadow: inset 8px 8px 10px #17191c, inset -8px -8px 10px #3d4149;
+}
